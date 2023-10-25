@@ -1,9 +1,9 @@
 <?php
 
 define("SERVER", "localhost");
-define("DATABASE", "id18884428_nekretnineapp");
-define("USERNAME", "id18884428_nekretnineuser");
-define("PASSWORD", "5u#8~wt737%d4WIN");
+define("DATABASE", "");
+define("USERNAME", "");
+define("PASSWORD", "");
 try {
     $conn = new PDO("mysql:host=".SERVER.";dbname=".DATABASE.";charset=utf8", USERNAME, PASSWORD);
 
